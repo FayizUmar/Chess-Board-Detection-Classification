@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+.env
+
+# Model weights (too large for git -- download separately)
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Stockfish source tree (install via brew install stockfish)
+Stockfish/
+
+# Pipeline outputs
+output/
+output_*/
+
+# Large image datasets
+Chess-Images/
+
+# macOS
+.DS_Store
+
+# Agent / AI tooling configs
+agents/
+CLAUDE.md
