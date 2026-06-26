@@ -1,0 +1,10 @@
+# Stage 1 -- board detection and warp
+numpy
+opencv-python>=4.8.0
+
+# Stage 2 -- YOLO piece detection (optional)
+ultralytics>=8.0.0
+
+# Stage 3 -- Stockfish engine analysis (optional)
+# Also requires: brew install stockfish  (or equivalent)
+chess>=1.10.0
