@@ -19,9 +19,11 @@ build/
 # Stockfish source tree (install via brew install stockfish)
 Stockfish/
 
-# Pipeline outputs
+# Pipeline outputs and generated datasets
 output/
 output_*/
+act_dataset/
+recordings/
 
 # Large image datasets
 Chess-Images/
